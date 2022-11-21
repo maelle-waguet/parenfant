@@ -1,0 +1,26 @@
+
+#logo { 
+    height: 150px;
+}
+
+h1 { 
+    font-family: 'hellohoney';
+}
+
+h2{ 
+    font-family: 'FallDay.otf'
+}
+p{ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*polices  */
+
+@font-face {
+    font-family: 'hellohoney'; 
+    src: url('../sources/hellohoney.otf') format('truetype'); }
+
+@font-face{
+    font-family: 'FallDay.otf';
+    src: url('../sources/FallDay.otf') format('truetype');
+}
