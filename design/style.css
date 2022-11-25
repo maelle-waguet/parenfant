@@ -1,18 +1,128 @@
 
 #logo { 
-    height: 150px;
+    height: 100px;
+    width: 120px;
+    opacity: 0.7;
+    padding: 0;
+    display: block;
+    margin: auto
+}
+body{
+    margin: 0;
+    font-family: 'autography';
+
 }
 
+header{ 
+    background-color: #FCE5F4; 
+}
+
+.introduction {
+    font-size: 2em;
+    text-align:center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-style: italic;
+}
+
+#separator {
+    width: 100px ;
+    height: 1px;
+    margin: 15px auto; 
+    display: block;
+    background-color: rgb(198, 23, 116);
+
+}
 h1 { 
     font-family: 'hellohoney';
+    font-size: 5em;
+    width: auto;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(116, 190, 158);
+    text-shadow:  2px 2px 2px rgb(198, 23, 116);
+    margin: 0;
+  
 }
 
 h2{ 
-    font-family: 'FallDay.otf'
+    font-family: 'FallDay.otf';
+    text-decoration: underline;
+    text-align: center;
+    margin: auto;
+    color:rgb(198, 23, 116);
 }
+
+h3 {
+    text-align: center;
+    color:rgb(116, 190, 158) ;
+    font-size: 3em; ;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(116, 190, 158);
+}
+
+ul { 
+    border: 1px outset white;
+    padding: 10px;
+    margin: 0;
+}
+
+.navigation { 
+    list-style-type: none ;
+    display:inline ;
+    margin: 30px;
+}
+
+nav {
+    font-family: 'hellohoney';
+    font-size: 2em; 
+    text-align: center;
+    background-color:white;
+    width: 100%;
+}
+
+h3::before {
+    content: " « ";
+}
+
+h3::after {
+    content: " » ";
+}
+
 p{ 
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
 }
+
+#coordonnées { 
+    border: 2px rgb(198, 23, 116) dotted; 
+    border-radius: 50%;
+    padding left: 50px ; 
+    padding right: 50px;
+}
+footer{
+    background-color:#FCE5F4 ;
+    padding: 15px;
+    font-size: 2em; 
+    text-align: right;
+}
+
+.cercle{ 
+    width: 100px;
+    height: 100px;
+    background-color: rgb(116, 190, 158);
+    border-radius: 50%;
+    display: block;
+
+    margin-left: 100px;
+}
+* {
+    box-sizing: border-box;}
 
 /*polices  */
 
@@ -23,4 +133,9 @@ p{
 @font-face{
     font-family: 'FallDay.otf';
     src: url('../sources/FallDay.otf') format('truetype');
+}
+
+@font-face{
+    font-family: "autography";
+    src: url('../sources/autography.otf') format('truetype'); 
 }
