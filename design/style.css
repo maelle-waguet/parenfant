@@ -10,6 +10,7 @@
 body{
     margin: 0;
     font-family: 'autography';
+    text-align: center;
 
 }
 
@@ -25,6 +26,17 @@ header{
     font-style: italic;
 }
 
+.picture { 
+
+}
+
+#actions { 
+
+}
+
+.action { 
+    
+}
 #separator {
     width: 100px ;
     height: 1px;
@@ -118,9 +130,9 @@ footer{
     background-color: rgb(116, 190, 158);
     border-radius: 50%;
     display: block;
-
     margin-left: 100px;
 }
+
 * {
     box-sizing: border-box;}
 
