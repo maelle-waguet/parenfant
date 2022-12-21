@@ -26,17 +26,40 @@ header{
     font-style: italic;
 }
 
-.picture { 
-
+#actions { 
+    display: flex;
+    flex-wrap: wrap;
 }
 
-#actions { 
-
+.action img {
+    min-width: 500px;
+    height: 250px;
 }
 
 .action { 
-    
+     width: 500px;
+     margin: auto;
+     display: inline-block;
+     background-color:#FCE5F4;
+     padding-bottom: 20px;
+     border: 0px solid black;
+     border-radius: 10px;
+     overflow: hidden;
+     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}   
+
+.action span { 
+    text-transform: uppercase;
+
 }
+
+.pictures { 
+    width: 500px;
+    min-height: 205 px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
 #separator {
     width: 100px ;
     height: 1px;
