@@ -171,6 +171,10 @@ footer{
     font-size: 2.5em;
 }
 
+.picture-index img {
+    width: 70%;
+}
+
 * {
     box-sizing: border-box;}
 
@@ -188,4 +192,13 @@ footer{
 @font-face{
     font-family: "autography";
     src: url('../sources/autography.otf') format('truetype'); 
+}
+
+/* Media*/
+
+@media all and (max-width: 1000px) { 
+    #coordonnées {
+        border: none;
+    }
+
 }
